@@ -114,8 +114,8 @@ color:red
 }
 
 .price{ 
+text-align: right;
   float: right;
-  color: f29e44;
 }
 
 .list{ 
@@ -169,17 +169,6 @@ border-radius: 25px;
   color: #f29e44;
 }
 
-.salads{ 
- color: #f29e44;
- font-size:13px;
- line-height: 1rem;
- font-family: Arial, Helvetica, sans-serif ;
-}
-.served-with{ 
-  color: #fff;
-  font-size: 13px;
-  line-height: 1.7rem;
-}
 
 .copyright{ 
   text-align: center;
