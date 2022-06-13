@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Mono&family=Roboto:wght@300;400&family=Source+Sans+Pro:wght@600&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -13,9 +15,11 @@
 
 
   .info{ 
+    height: 100%;
     text-align: center;
     color:#f29e44;
-    font-size: 2rem;
+    font-size: 1.3rem;
+    line-height: 3REM;
   }
 
 
@@ -82,19 +86,19 @@
   text-shadow: -1px 4px #000;
 }
 .panel {
-  width:50%;
+  width:70%;
   padding: 0 48px;
   color: #fff;
   position: relative;
   text-align: center;
   left:50%;
   transform: translate(-50%);
-  border: 4px solid #805c2a;
+  border: 4px solid #f29e44;
   border-radius: 25px;
   text-align: left;
-  max-height: 0;
+  max-height: 100%;
   overflow: hidden;
-  font-size:COVER;
+  font-size: 28px;
   font-weight: bold;
   transition: max-height 0.2s ease-out;
 }
@@ -104,12 +108,14 @@ color:red
 
 .price{ 
   float: right;
+  color: f29e44;
 }
 
 .list{ 
     list-style: none;
     margin: 0;
-    line-height: 3rem;
+    line-height: 2.5rem;
+    font-size: 1rem;
     
 }
 
@@ -148,24 +154,12 @@ background-color: #fff;
 border-radius: 25px;
 }
 
-.happyhour{ 
-  text-align: center;
-font-family: lobster , cursive;
-line-height: 1.75rem;
-color: #fff;
-}
-
-.atc{ 
-  text-align: center;
-  font-family: lobster , cursive;
-color: #3a9b88;
-
-}
 .ingredients{ 
-  font-family: lobster , cursive;
-  font-size: 13px;
-  line-height: 1rem;
-  color: #3a9b88;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  line-height: 1.7rem;
+  overflow: hidden;
+  color: #f29e44;
 }
 
 .salads{ 
