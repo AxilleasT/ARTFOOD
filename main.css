@@ -13,7 +13,7 @@
  
   }
 
-
+ 
   .info{ 
     height: 100%;
     text-align: center;
@@ -163,9 +163,9 @@ border-radius: 25px;
 
 .ingredients{ 
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 18px;
+  font-size: 1rem;
+  max-width: 100%;
   line-height: 1.7rem;
-  overflow: hidden;
   color: #f29e44;
 }
 
